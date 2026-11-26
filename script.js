@@ -17,3 +17,9 @@ function addTask() {
 }
 
 addButton.addEventListener("click", addTask);
+
+taskList.addEventListener("dblclick", function(event) {
+    if (event.target.tagName === "LI") {
+        event.target.remove();
+    }
+});
