@@ -45,3 +45,12 @@ li {
     margin-top: 10px;
     border-radius: 6px;
 }
+/* Improve task list design */
+
+li:hover {
+    background-color: #e2e8f0;
+}
+
+button:active {
+    transform: scale(0.98);
+}
