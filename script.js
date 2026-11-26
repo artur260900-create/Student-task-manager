@@ -23,3 +23,9 @@ taskList.addEventListener("dblclick", function(event) {
         event.target.remove();
     }
 });
+
+taskInput.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        addTask();
+    }
+});
